@@ -1,0 +1,13 @@
+4
+screenshots/S1_E1_Gareebi Aur Mohabbat.png
+Congrats.! E1 | Gareebi Aur Mohabbat  is playing smoothly
+00:08/10:27
+E1 | Gareebi Aur Mohabbat played successfully for  00  Hours and 08 Seconds
+screenshots/S2_E1_Batana Sahi Sahi.png
+Congrats.! E1 | Batana Sahi Sahi  is playing smoothly
+00:07/08:29
+E1 | Batana Sahi Sahi played successfully for  00  Hours and 07 Seconds
+screenshots/S3_E1_Mere Muh Se Nikal Gayi.png
+Congrats.! E1 | Mere Muh Se Nikal Gayi  is playing smoothly
+00:08/09:18
+E1 | Mere Muh Se Nikal Gayi played successfully for  00  Hours and 08 Seconds
