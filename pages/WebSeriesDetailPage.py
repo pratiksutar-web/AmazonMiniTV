@@ -20,7 +20,7 @@ class WebSeriesDetailPage:
 
 
     farzi_mushaira_season_one_name_xpath_locator = "(//div[text()='E1 | Gareebi Aur Mohabbat'])[2]"
-    farzi_mushaira_season_two_name_xpath_locator = "(//div[text()='E1 | Batana Sahi Sahi'])[2]"
+    farzi_mushaira_season_two_name_xpath_locator = "(//h3[@class=' Heading_h3__nwNYN EpisodeItem_desktopHeadingContainer__29L3w'])[1]"
     farzi_mushaira_season_three_name_xpath_locator = "(//div[text()='E1 | Mere Muh Se Nikal Gayi'])[2]"
 
     season_one_ep_one_thumbnail_xpath_locator = "//img[@alt='Gareebi Aur Mohabbat - Watch Free']"

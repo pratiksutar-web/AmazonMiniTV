@@ -3,6 +3,11 @@
 2. Description:
       Welcome to this project.! This is an automated test for the Amazon MiniTV web series. This project automates the playback of a web series from Amazon mini tv. In this project, the test automates the playback of the first episode from each season of "Farzi Mushaira Web Series" with the Selenium pytest Hybrid framework. This framework verifies the status of a video player i.e. the video is currently playing or paused, the duration of the video, and takes screenshots of the video and generates the allure reports.
 
+```bash
+Note: This project requires a stable internet connection to run smoothly. 
+If you get any timeout exception in the console just check the internet connection and try again.
+```
+
 3. What this project does:
 	- Opening Amazon MiniTV
 	- Opens the Chrome browser.
@@ -68,7 +73,15 @@
 	  to
 	  View->Tool Windows->Terminal
 	- Run the below command in the terminal
-	- pytest --allurdir="./Reports"
+```bash 
+	pytest -rA 
+```
+Or to generate simple report  or Allure report run
+
+```bash
+	pytest --html=report.html
+	pytest --allurdir="./Reports"
+```
 	- You should be able to see the test running and video-related activity in the
 	   browser.
 	- To see the reports open the project folder in the directory 
