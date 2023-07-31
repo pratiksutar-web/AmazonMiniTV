@@ -72,6 +72,13 @@ If you get any timeout exception in the console just check the internet connecti
 	- From the bottom toolbar click on the Terminal option Or From the top toolbar go 
 	  to
 	  View->Tool Windows->Terminal
+	  
+	switch to the project directory using below command to go the project folder
+```bash 
+cd AmazonMiniTV
+or
+cd project_dir_name
+```
 	- Run the below command in the terminal
 ```bash 
 	pytest -rA 
