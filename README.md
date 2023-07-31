@@ -81,17 +81,27 @@
 
 
 6. How to Use the Project:
-	- Open the project in Pycharm IDE
-	Folder structure:
-		configurations - This package contains all the configuration files for the project like the config.ini file.
-		Logs - This folder contains the log file which is generated after the test execution.
-		pages- This package contains all the pages for which the test scenario is applied.
-		Reports - This folder contains all the reports generated from allure reports.
-		screenshots- This folder contains all the screenshots captured to verify the videos are playing.
-		tests - This package contains all test methods which are used in the project.
-		utilities - This folder contains all the reusable methods to optimize the code.
 
-	To Run the Project:
+	- Open the project in Pycharm IDE
+
+	 Folder structure:
+
+	 configurations - This package contains all the configuration files for the project like the config.ini file.
+
+	 Logs - This folder contains the log file which is generated after the test execution.
+
+	 pages- This package contains all the pages for which the test scenario is applied.
+
+	 Reports - This folder contains all the reports generated from allure reports.
+
+	 screenshots- This folder contains all the screenshots captured to verify the videos are playing.
+
+	 tests - This package contains all test methods which are used in the project.
+   
+	 utilities - This folder contains all the reusable methods to optimize the code.
+
+ To Run the Project:
+
 		- Open the project In Pycharm IDE
 		- Open the terminal and hit the below command
 		- pytest to run without reports Or pytest --alluredir = "./Reports" to generate the reports.
