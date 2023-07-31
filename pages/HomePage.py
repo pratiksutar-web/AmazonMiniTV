@@ -23,18 +23,18 @@ class HomePage:
         self.wait.until(EC.element_to_be_clickable((By.XPATH,self.popular_web_series_category_xpath_locator)))
         popular_web_series = self.driver.find_element(By.XPATH,self.popular_web_series_category_xpath_locator)
         self.driver.execute_script("arguments[0].scrollIntoView();",popular_web_series)
-        time.sleep(4)
+        time.sleep(3) # For Understanding purpose
 
     def click_on_popular_web_series_right_arrow_button(self):
         self.wait.until(EC.element_to_be_clickable((By.XPATH,self.popular_web_series_category_right_arrow_button_xpath_locator_)))
         self.driver.find_element(By.XPATH,self.popular_web_series_category_right_arrow_button_xpath_locator_).click()
-        time.sleep(3)
+        time.sleep(3)# For Understanding purpose
 
     def click_on_farzi_mushaira_web_series(self):
         self.wait.until(EC.element_to_be_clickable((By.XPATH,self.farzi_mushaira_web_series_xpath_locator)))
         farzi_mushaira = self.driver.find_element(By.XPATH,self.farzi_mushaira_web_series_xpath_locator)
         self.actions.move_to_element(farzi_mushaira).perform()
-        time.sleep(2)
+        time.sleep(2)# For Understanding purpose
 
         # self.driver.execute_script("arguments[0].scrollIntoView();", farzi_mushaira)
         farzi_mushaira.click()

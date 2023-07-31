@@ -1,0 +1,20 @@
+1690794559567	geckodriver	INFO	Listening on 127.0.0.1:56697
+1690794562626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56698" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Vishal\\AppData\\Local\\Temp\\rust_mozprofileoREcni"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690794562845	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1690794562925	Marionette	INFO	Listening on port 56711
+WebDriver BiDi listening on ws://127.0.0.1:56698
+Read port: 56711
+1690794563083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56698/devtools/browser/a615efbf-37b4-419f-9d67-0fc8003f5e4a
+JavaScript error: https://dzvx1dfjq08aq.cloudfront.net/assets/_next/static/chunks/0f4231a3.e86451bd1a3ecce9.js, line 10: TypeError: e.m is null
+[Child 11956, MediaDecoderStateMachine #1] WARNING: cc7d740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript error: https://dzvx1dfjq08aq.cloudfront.net/assets/_next/static/chunks/0f4231a3.e86451bd1a3ecce9.js, line 10: TypeError: e.m is null
+[Child 11956, MediaDecoderStateMachine #1] WARNING: cc7d560 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+[Child 11956, MediaDecoderStateMachine #1] WARNING: 1509e1a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript error: https://dzvx1dfjq08aq.cloudfront.net/assets/_next/static/chunks/0f4231a3.e86451bd1a3ecce9.js, line 10: TypeError: e.m is null
+[Child 11956, MediaDecoderStateMachine #1] WARNING: e274600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+1690794640844	Marionette	INFO	Stopped listening on port 56711
+Dynamically enable window occlusion 1

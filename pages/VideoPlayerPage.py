@@ -53,7 +53,6 @@ class VideoPlayerPage:
         video_time_duration = self.driver.find_element(By.CSS_SELECTOR,self.video_played_duration_time_css_locator).text
 
         # print(video_time_duration)
-        # Add log here
 
         video_time_duration_played_list = video_time_duration.split("/")
         video_time_duration_played_in_min_and_sec = video_time_duration_played_list[0]
